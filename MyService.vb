@@ -1,4 +1,5 @@
-﻿Imports System.Data.SqlClient
+﻿
+Imports System.Data.SqlClient
 Imports BlackCoffeeLibrary
 Imports System.Net.Mail
 Imports System.ComponentModel

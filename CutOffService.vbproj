@@ -53,7 +53,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="BlackCoffeeLibrary">
-      <HintPath>..\..\..\..\Frameworks\BlackCoffeeLibrary.dll</HintPath>
+      <HintPath>..\..\..\..\DLL\BlackCoffeeLibrary.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />

@@ -18,9 +18,9 @@ DefaultDirName={autopf}\Leave Application
 DisableProgramGroupPage=yes
 ; Uncomment the following line to run in non administrative install mode (install for current user only.)
 ;PrivilegesRequired=lowest
-OutputDir=B:\Users BACKUP\NBCP-LT-058\Documents\Visual Studio 2012\Projects\LeaveFilingSystem\CutOffService\inno
+OutputDir=B:\Users BACKUP\NBCP-LT-043\Documents\Visual Studio 2012\Projects\LeaveFilingSystem\CutOffService\inno
 OutputBaseFilename=cutoff-serv-inst
-SetupIconFile=B:\Users BACKUP\NBCP-LT-058\Documents\Visual Studio 2012\Projects\LeaveFilingSystem\CutOffService\Resources\LfsSysIcon.ico
+SetupIconFile="B:\Users BACKUP\NBCP-LT-043\Documents\Visual Studio 2012\Projects\LeaveApplicationSystem\CutOffService\Resources\LfsSysIcon.ico"
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
@@ -32,8 +32,8 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "B:\Users BACKUP\NBCP-LT-058\Documents\Visual Studio 2012\Projects\LeaveFilingSystem\CutOffService\bin\Debug\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
-Source: "B:\Users BACKUP\NBCP-LT-058\Documents\Visual Studio 2012\Projects\LeaveFilingSystem\CutOffService\bin\Debug\BlackCoffeeLibrary.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "B:\Users BACKUP\NBCP-LT-043\Documents\Visual Studio 2012\Projects\LeaveApplicationSystem\CutOffService\bin\Debug\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
+Source: "B:\Users BACKUP\NBCP-LT-043\Documents\Visual Studio 2012\Projects\LeaveApplicationSystem\CutOffService\bin\Debug\BlackCoffeeLibrary.dll"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
